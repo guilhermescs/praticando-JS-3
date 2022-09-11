@@ -68,3 +68,4 @@ let student = {
 }
 
 console.log(`${student.name}, de ${student.age} anos de idade, pesa ${student.weight} kg.`)
+
