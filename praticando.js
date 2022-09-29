@@ -59,7 +59,7 @@ console.log(animals[3])
 
 let weight;
 console.log(typeof weight)
-*/
+
 let student = {
     name: "Gui",
     age: 22,
@@ -69,3 +69,31 @@ let student = {
 
 console.log(`${student.name}, de ${student.age} anos de idade, pesa ${student.weight} kg.`)
 
+//Propriedade Date
+
+let date = new Date('2020-12-01')
+console.log(date.__proto__)
+
+/* resto da divisão: sinal % 
+let remainder
+remainder = 11 % 9
+console.log(remainder)
+
+/* incremento: sinal ++ 
+let increment = 0
+
+console.log(++increment)
+console.log(increment)
+
+/* decremento: sinal -- 
+let decrement = 0
+decrement--
+console.log(decrement)
+
+/* exponencial: sinal ** 
+console.log(2 ** 3)
+
+
+// Apenas um = significa que a variavél recebe x valor
+// Dois == significa igual. Função x é == (igual) a y?
+// != significa diferente de.
