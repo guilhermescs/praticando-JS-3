@@ -144,3 +144,83 @@ console.log(niceBreakfast)
 //Operador de concatenação
 
 
+// if e else
+
+let temperature = 36.5
+
+if(temperature > 36.5) {
+    console.log("Você está com febre")
+} else {
+    console.log("Você não está com febre")
+}
+
+
+let expression = ''
+
+switch (expression) { // puxa a expressão para o switch
+  case 'a': // confere se o valor da expressão é o correto
+    console.log('a')
+    break // para a execução do switch apenas se verdadeiro
+  case 'b':
+    console.log('b')
+    break
+  default: // caso nenhum valor seja o correto, realizará a 
+					 //instrução dentro de si.
+    console.log('default')
+    break
+}
+
+// trow e catch
+
+function sayMyName(name = '') {
+    if (name === '') {
+        throw 'Nome é obrigatório'
+    }
+
+    console.log(name)
+}
+
+try {
+    sayMyName()
+} catch(e) {
+    console.log(e)
+}
+
+console.log('após ao try/catch')
+*/
+
+// for / while / for of for in
+
+//for
+for(let i = 100; i > 0; i--) {
+    console.log(i)
+}
+
+//while
+let i = 0;
+while (i < 10) {
+    console.log(i)
+    i++
+}
+
+//for of
+
+let name = "gui"
+let names = ['pedro', 'mat', 'livo']
+
+for(let name of names) {
+    console.log(name)
+}
+
+//for in
+
+let person = {
+    name: 'Gui',
+    age: 30,
+    weight: 75
+}
+for(let property in person) {
+    console.log(property)
+    console.log(person[property])
+}
+
